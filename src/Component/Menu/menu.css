@@ -1,0 +1,35 @@
+.menu {
+    height: 150%;
+    width: 100%;
+}
+
+.menuText {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  text-transform: capitalize;
+  color: #000000;
+  margin-top: 20px;
+}
+
+.menuImgText {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.menuImg {
+  width: 20px;
+  color: var(--icon-color);
+  margin-right: 10px;
+}
+
+.menuTag {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;;
+}
