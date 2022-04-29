@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Free-Music/static/css/main.64b934a9.css",
+    "main.js": "/Free-Music/static/js/main.11e8abfe.js",
+    "static/media/Background.png": "/Free-Music/static/media/Background.f754b5f2099e550c3685.png",
+    "static/media/image 1.png": "/Free-Music/static/media/image 1.670095c034b45c94cf5a.png",
+    "index.html": "/Free-Music/index.html",
+    "main.64b934a9.css.map": "/Free-Music/static/css/main.64b934a9.css.map",
+    "main.11e8abfe.js.map": "/Free-Music/static/js/main.11e8abfe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.64b934a9.css",
+    "static/js/main.11e8abfe.js"
+  ]
+}
