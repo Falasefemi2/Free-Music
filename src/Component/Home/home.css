@@ -1,0 +1,236 @@
+.home {
+  flex-basis: 50%;
+  background: var(--main-color);
+  display: flex;
+  padding-top: 10px;
+}
+
+.home__wrapper {
+  margin-left: 20px;
+  width: 100%;
+}
+
+.home__links {
+  display: flex;
+  margin-right: 10px;
+}
+
+.listItem {
+  display: flex;
+  margin-right: 10px;
+}
+
+.listItemli {
+  display: flex;
+  align-items: center;
+  margin-right: 3.5rem;
+  list-style: none;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: var(--blue-color);
+}
+
+.home__search-bar {
+  width: 464px;
+  height: 54px;
+  background: rgba(163, 191, 245, 0.35);
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.home__search-bar > img {
+  width: 19.58px;
+  height: 20px;
+  border: 2px solid #477feb;
+  margin-left: 10px;
+}
+
+.home__search-bar > input {
+  height: 23px;
+  border: none;
+  outline: none;
+  margin-left: 15px;
+  background: rgba(163, 191, 245, 0.35);
+  background-color: transparent;
+}
+
+::placeholder {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: var(--icon-search);
+}
+
+.image__container {
+  margin-top: 3rem;
+}
+
+.image__gradient {
+  width: 882px;
+  height: 343px;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.image__gradient > img {
+  border-radius: 40px;
+  background: var(--pic-background);
+}
+
+.verified {
+  position: absolute;
+  display: flex;
+  top: 85px;
+  left: 50px;
+}
+
+.verified img {
+  height: 25.181251525878906px;
+  width: 25.181249618530273px;
+  background-color: var(--verified-color);
+  margin-right: 0.5rem;
+}
+
+.verified p {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+}
+
+.bold__text {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    color: #F6F6F6;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    margin-top: 0.5rem;
+}
+
+.mini-text {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #F6F6F6;
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    margin-top: 3rem;
+}
+
+.olamide__image {
+    position: absolute;
+    bottom: 0;
+}
+
+.olamide__image img {
+    border-radius: 0.777398px 0.777398px 34.2183px 0.777398px;
+    width: 290px;
+    height: 362.74px;
+}
+
+.song__playing {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.popular {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 100px;
+    font-family: var(--font-family);
+    color: var(--blue-color);
+    font-weight: 700;
+    font-size: 19.417px;
+    line-height: 25px;
+}
+
+.all {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-right: 100px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 14.5627px;
+    line-height: 19px;
+    color: var(--color-red);
+}
+
+.song__contain {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.number {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 14.5627px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #0E0E0E;
+}
+
+.title {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 14.5627px;
+    line-height: 22px;
+    color: #0E0E0E;
+    text-transform: uppercase;
+}
+
+.play {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 14.5627px;
+    line-height: 22px;
+    color: #0E0E0E;
+    text-transform: uppercase;
+}
+
+.time {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 14.5627px;
+    line-height: 22px;
+    color: #0E0E0E;
+    text-transform: uppercase;
+}
+
+.album {
+    margin-right: 30px;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 14.5627px;
+    line-height: 22px;
+    color: #0E0E0E;
+    text-transform: uppercase;
+}
+
+.songPlayingCard {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
